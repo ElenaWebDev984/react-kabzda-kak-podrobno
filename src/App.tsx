@@ -1,5 +1,7 @@
 
 import './App.css'
+import {Technologies} from "./Technologies.tsx";
+import {Header} from "./Header.tsx";
 
 function App() {
   return (
@@ -10,25 +12,5 @@ function App() {
   )
 }
 
-const Header = () => {
-    return (
-        <div>
-            <a href='#'>Home</a>
-            <a href='#'>News Feed</a>
-            <a href='#'>Messages</a>
-        </div>
-    )
-}
-
-const Technologies = () => {
-    return (
-        <ul>
-            <li>css</li>
-            <li>html</li>
-            <li>js</li>
-            <li>react</li>
-        </ul>
-    )
-}
 
 export default App
